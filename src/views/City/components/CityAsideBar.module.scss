@@ -1,0 +1,17 @@
+.sideBarCon {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  width: 20px;
+  border-radius:10px;
+  transform: translateY(-50%);
+  color:#fff;
+  background: rgba(0,0,0,0.1);
+  > li {
+    line-height:18px;
+    text-align: center;
+  }
+  .active {
+    color:#00e4f5;
+  }
+}

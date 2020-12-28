@@ -1,0 +1,20 @@
+.speedRail {
+  height:63px;
+  display:flex;
+  align-items: center;
+  >div {
+    height:40px;
+    line-height: 40px;
+    >i {
+      border-radius: 50%;
+      border:1px solid #ccc;
+      font-size:16px;
+      color:#fff;
+      margin-right:5px;
+    }
+    .selected {
+      color:#00e4f5;
+      border-color:#00e4f5;
+    }
+  }
+}

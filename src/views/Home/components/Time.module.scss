@@ -1,0 +1,13 @@
+.time {
+  height:59px;
+  border-bottom:1px solid #eee;
+  display: flex;
+  align-items: center;
+  >span:nth-child(1) {
+    font-size:20px;
+  }
+  >span:nth-child(2) {
+    color:#aaa;
+    margin-left:6px;
+  }
+}

@@ -1,0 +1,14 @@
+.dateNav {
+  padding: 0 10px 0 15px;
+  line-height: 44px;
+  height: 44px;
+  background: #f8f8f8;
+  text-align: center;
+  color: #3cc;
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  .disabled {
+    opacity: .3;
+  }
+}

@@ -1,0 +1,65 @@
+.filterModel {
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  .filterMenu {
+    position: absolute;
+    background: #fff;
+    top: 10%;
+    bottom: 57px;
+    width: 100%;
+    > .title {
+      display: flex;
+      line-height: 41px;
+      height: 41px;
+      color: #3cc;
+      font-size: 16px;
+      padding: 0 15px;
+      justify-content: space-between;
+      border-bottom: 1px solid #e0e0e0;
+      border-top: 1px solid #e0e0e0;
+    }
+    > .options {
+      overflow-y: scroll;
+      position: absolute;
+      width: 100%;
+      top: 43px;
+      bottom: 0;
+      > .optionItem {
+        > h3 {
+          line-height: 28px;
+          color: #666;
+          font-size: 14px;
+          background: #f5f5f5;
+          padding-left: 15px;
+        }
+        > ul {
+          padding: 15px 15px 0;
+          display: flex;
+          flex-wrap: wrap;
+          li {
+            width: 29.5%;
+            height: 27px;
+            line-height: 27px;
+            margin: 0 1.5% 4%;
+            border: 1px solid #c7ced4;
+            border-radius: 4px;
+            color: #333;
+            text-align: center;
+            font-size: 16px;
+          }
+          .selected {
+            background: #3cc;
+            border-color: #3cc;
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+}

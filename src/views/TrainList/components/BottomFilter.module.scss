@@ -1,0 +1,26 @@
+.filterCon {
+  height: 56px;
+  background: #f8f8f8;
+  border-top: 1px solid #ececec;
+  position: fixed;
+  bottom: 0;
+  max-width: 540Px;
+  z-index: 1000;
+  width: 100%;
+  display:flex;
+  >div {
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:#888;
+    font-size:12px;
+    >i{
+      font-size:24px;
+    }
+  }
+  .selected {
+    color:#3cc;
+  }
+}

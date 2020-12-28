@@ -1,0 +1,12 @@
+.station {
+  height: 65px;
+  display:flex;
+  justify-content: space-between;
+  font-size: 26px;
+  align-items: center;
+  border-bottom:1px solid #eee;
+  > i {
+    font-size: 26px;
+    color: #ccc;
+  }
+}

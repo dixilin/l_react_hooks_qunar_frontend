@@ -1,0 +1,14 @@
+.citySearchList {
+  background:#fff;
+  position: absolute;
+  left:0;
+  right:0;
+  top:44px;
+  bottom: 0;
+  z-index:999;
+  > li {
+    padding:0 15px;
+    line-height:44px;
+    border-bottom:1px solid #eee;
+  }
+}

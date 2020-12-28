@@ -1,0 +1,30 @@
+.homeContent {
+  >img {
+    height:124px;
+  }
+  .bgImage {
+    height:124px;
+    background: url('../../img/top_title.png');
+    background-size: cover;
+  }
+  .searchBox {
+    height:245px;
+    padding:10px 22px 16px;
+    margin:-73px 8px 0;
+    border-radius: 8px;
+    background:#fff;
+    box-shadow: 0 1px 10px #ddd;
+    
+   
+    .searchBtn {
+      button {
+        height:48px;
+        background:#ff8300;
+        width:100%;
+        border:0 none;
+        color:#fff;
+        border-radius: 30px;
+      }
+    }
+  }
+}

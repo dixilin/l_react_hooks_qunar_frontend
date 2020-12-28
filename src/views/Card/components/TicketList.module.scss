@@ -1,0 +1,41 @@
+.lists {
+  margin-top: 15px;
+  background: #fff;
+  .list {
+    border-bottom: 1px solid #eaeaea;
+    line-height: 42px;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    > span:nth-child(1) {
+      font-size: 16px;
+      width: 70px;
+      margin-right:20px;
+    }
+    > span:nth-child(2) {
+      font-size: 18px;
+      color: #f90;
+      flex:1;
+    }
+    > span:nth-child(3) {
+      font-size: 12px;
+      width:40px;
+    }
+    > button {
+      width: 40px;
+      height: 24px;
+      line-height: 24px;
+      border: 1px solid #f90;
+      color: #f90;
+      border-radius: 3px;
+      text-align: center;
+      box-sizing: content-box;
+      background-color: #fff;
+      font-size: 14px;
+    }
+    .disabled {
+      color: #ccc;
+      border: 1px solid;
+    }
+  }
+}
